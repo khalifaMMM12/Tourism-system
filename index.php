@@ -260,7 +260,7 @@
 					<div class="col-sm-12">
 					<div class="copyrightContainer">
 						<div class="copyright">
-						Copyright &copy; 2021 MMM
+						Copyright &copy; 2024 MMM
 						</div>
 					</div>
 					</div>

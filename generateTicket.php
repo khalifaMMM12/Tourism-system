@@ -45,7 +45,7 @@ ob_start();
 		
 		<?php 
 		
-		date_default_timezone_set("Asia/Kolkata");
+		date_default_timezone_set("Asia/Lagos");
 		$date=date('l jS \of F Y \a\t h:i:s A');
 		
 		$totalPassengers=$_POST["totalPassengersHidden"];

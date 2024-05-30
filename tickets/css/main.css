@@ -155,7 +155,7 @@
   text-overflow: ellipsis;
 }
 .popularFlights .listItem .fare::before {
-  content: "₹";
+  content: " ₦";
   font-family: "sans-serif";
   font-weight: 400;
   position: relative;
@@ -365,7 +365,7 @@
   top: +0.8em;
 }
 .searchFlights .listItem .fare::before {
-  content: "₹";
+  content: " ₦";
   font-family: "sans-serif";
   font-weight: 400;
   position: relative;
@@ -972,7 +972,7 @@
   text-overflow: ellipsis;
 }
 .popularBus .listItem .fare::before {
-  content: "₹";
+  content: " ₦";
   font-family: "sans-serif";
   font-weight: 400;
   position: relative;
@@ -1150,7 +1150,7 @@
   text-overflow: ellipsis;
 }
 .popularCabs .listItem .fare::before {
-  content: "₹";
+  content: " ₦";
   font-family: "sans-serif";
   font-weight: 400;
   position: relative;
@@ -1318,7 +1318,7 @@
   text-overflow: ellipsis;
 }
 .popularHotels .listItem .fare::before {
-  content: "₹";
+  content: " ₦";
   font-family: "sans-serif";
   font-weight: 400;
   position: relative;
@@ -4081,7 +4081,7 @@
   top: +0.8em;
 }
 .searchBus .listItem .fare::before {
-  content: "₹";
+  content: " ₦";
   font-family: "sans-serif";
   font-weight: 400;
   position: relative;

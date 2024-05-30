@@ -145,12 +145,12 @@ if(!isset($_SESSION["username"]))
    								 <label for="origin">Origin:<p> </p></label>
      
       								<select id= "origin"  data-live-search="true" class="selectpicker form-control" data-size="5" title="Select Origin" name="origin" required>
-       									<option value="New Delhi" data-subtext="DEL" data-tokens="DEL New Delhi">New Delhi</option>
-        								<option value="Mumbai" data-subtext="BOM" data-tokens="BOM Mumbai">Mumbai</option>
-        								<option value="Kolkata" data-subtext="CCU" data-tokens="CCU Kolkata">Kolkata</option>
+       									<option value="Abuja" data-subtext="DEL" data-tokens="DEL Abuja">Abuja</option>
+        								<option value="Port Harcourt" data-subtext="BOM" data-tokens="BOM Port Harcourt">Port Harcourt</option>
+        								<option value="Lagos" data-subtext="CCU" data-tokens="CCU Lagos">Lagos</option>
         								<option value="Bengaluru" data-subtext="BLR" data-tokens="BLR Bengaluru">Bengaluru</option>
         								<option value="Pune" data-subtext="PNQ" data-tokens="PNQ Pune">Pune</option>
-        								<option value="Chennai" data-subtext="MAA" data-tokens="MAA Chennai">Chennai</option>
+        								<option value="Kano" data-subtext="MAA" data-tokens="MAA Kano">Kano</option>
         								<option value="Guwahati" data-subtext="GAU" data-tokens="GAU Guwahati">Guwahati</option>
         								<option value="Bhopal" data-subtext="BHO" data-tokens="BHI Bhopal">Bhopal</option>
         								<option value="Jaipur" data-subtext="JAI" data-tokens="JAI Jaipur">Jaipur</option>
@@ -165,12 +165,12 @@ if(!isset($_SESSION["username"]))
    								 <label for="destination">Destination:<p> </p></label>
      
       								<select id= "destination"  data-live-search="true" class="selectpicker form-control" data-size="5" title="Select Destination" name="destination" required>
-       									<option value="New Delhi" data-subtext="DEL" data-tokens="DEL New Delhi">New Delhi</option>
-        								<option value="Mumbai" data-subtext="BOM" data-tokens="BOM Mumbai">Mumbai</option>
-        								<option value="Kolkata" data-subtext="CCU" data-tokens="CCU Kolkata">Kolkata</option>
+       									<option value="Abuja" data-subtext="DEL" data-tokens="DEL Abuja">Abuja</option>
+        								<option value="Port Harcourt" data-subtext="BOM" data-tokens="BOM Port Harcourt">Port Harcourt</option>
+        								<option value="Lagos" data-subtext="CCU" data-tokens="CCU Lagos">Lagos</option>
         								<option value="Bengaluru" data-subtext="BLR" data-tokens="BLR Bengaluru">Bengaluru</option>
         								<option value="Pune" data-subtext="PNQ" data-tokens="PNQ Pune">Pune</option>
-        								<option value="Chennai" data-subtext="MAA" data-tokens="MAA Chennai">Chennai</option>
+        								<option value="Kano" data-subtext="MAA" data-tokens="MAA Kano">Kano</option>
         								<option value="Guwahati" data-subtext="GAU" data-tokens="GAU Guwahati">Guwahati</option>
         								<option value="Bhopal" data-subtext="BHO" data-tokens="BHI Bhopal">Bhopal</option>
         								<option value="Jaipur" data-subtext="JAI" data-tokens="JAI Jaipur">Jaipur</option>

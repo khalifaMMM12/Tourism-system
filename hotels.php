@@ -118,16 +118,11 @@ if(!isset($_SESSION["username"]))
    								 <label for="city">City:<p> </p></label>
      
       								<select id= "city"  data-live-search="true" class="selectpicker form-control" data-size="5" title="Select City" name="city" required>
-       									<option value="New Delhi" data-tokens="DEL New Delhi">New Delhi</option>
-        								<option value="Mumbai" data-tokens="BOM Mumbai">Mumbai</option>
-        								<option value="Kolkata" data-tokens="CCU Kolkata">Kolkata</option>
-        								<option value="Bangalore" data-tokens="BLR Bangalore">Bangalore</option>
-        								<option value="Chennai" data-tokens="MAA Chennai">Chennai</option>
-        								<option value="Pune" data-tokens="PNQ Pune">Pune</option>
-        								<option value="Kerala" data-tokens="KER Kerala">Kerala</option>
-        								<option value="Guwahati" data-tokens="GAU Guwahati">Guwahati</option>
-        								<option value="Manali" data-tokens="MAN Manali">Manali</option>
-        								<option value="Shillong" data-tokens="SHL Shillong">Shillong</option>
+       									<option value="Abuja" data-tokens="DEL Abuja">Abuja</option>
+        								<option value="Port Harcourt" data-tokens="BOM Port Harcourt">Port Harcourt</option>
+        								<option value="Lagos" data-tokens="CCU Lagos">Lagos</option>
+        								<option value="Kano" data-tokens="MAA Kano">Kano</option>
+        								<option value="Kaduna" data-tokens="MAN Kaduna">Kaduna</option>
       								</select>
 							</div>
             			</div>
@@ -268,25 +263,25 @@ if(!isset($_SESSION["username"]))
 								
 									<div class="imageContainer text-center">
 										
-										<img src="images/hotels/cities/NewDelhi/piccadily.jpg" alt="New Delhi Hotels">
+										<img src="images/hotels/cities/Abuja/transcorp.jpg" alt="Abuja Hotels">
 										
 									</div>
 									
 									<div class="headings">
 										
-										New Delhi
+										Abuja
 										
 									</div>
 									
 									<div class="info">
 										
-										3-star hotels averaging ₹ 2000
+										3-star hotels averaging  ₦55,000
 										
 									</div>
 									
 									<div class="info">
 										
-										5-star hotels averaging ₹ 6500
+										5-star hotels averaging  ₦125,000
 										
 									</div>
 								
@@ -301,25 +296,25 @@ if(!isset($_SESSION["username"]))
 								
 									<div class="imageContainer text-center">
 										
-										<img src="images/hotels/cities/Mumbai/JWMarriott.jpg" alt="Mumbai Hotels">
+										<img src="images/hotels/cities/PortHarcourt/GoldenTulip.jpg" alt="Port Harcourt Hotels">
 										
 									</div>
 									
 									<div class="headings">
 										
-										Mumbai
+										Port Harcourt
 										
 									</div>
 									
 									<div class="info">
 										
-										3-star hotels averaging ₹ 3900
+										3-star hotels averaging  ₦105,000
 										
 									</div>
 									
 									<div class="info">
 										
-										5-star hotels averaging ₹ 9700
+										5-star hotels averaging  ₦42,000
 										
 									</div>
 								
@@ -334,25 +329,25 @@ if(!isset($_SESSION["username"]))
 								
 									<div class="imageContainer text-center">
 										
-										<img src="images/hotels/cities/Kolkata/HyattRegency.jpg" alt="kolkata Hotels">
+										<img src="images/hotels/cities/Lagos/RadissonBlu.jpg" alt="Lagos Hotels">
 										
 									</div>
 									
 									<div class="headings">
 										
-										Kolkata
+										Lagos
 										
 									</div>
 									
 									<div class="info">
 										
-										3-star hotels averaging ₹ 3000
+										3-star hotels averaging  ₦70,000
 										
 									</div>
 									
 									<div class="info">
 										
-										5-star hotels averaging ₹ 7750
+										5-star hotels averaging  ₦230,000
 										
 									</div>
 								
@@ -383,11 +378,11 @@ if(!isset($_SESSION["username"]))
 						</div>
 							
 						<div class="footerText">
-							CUSAT, Cochin,<br> Kerala,India
+							Central Area,<br> Abuja, Nigeria
 						</div>
 				
 						<div class="footerText">
-							E-mail: queries@tourism_management.com
+							E-mail: jibrilla@tourism_system.com
 						</div>
 						
 					</div>
@@ -427,7 +422,7 @@ if(!isset($_SESSION["username"]))
 					<div class="col-sm-12">
 					<div class="copyrightContainer">
 						<div class="copyright">
-						Copyright &copy; 2021 Alisha Anand
+						Copyright &copy; 2024 MMM
 						</div>
 					</div>
 					</div>

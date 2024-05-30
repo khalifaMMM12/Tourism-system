@@ -182,9 +182,9 @@ if(!isset($_SESSION["username"]))
 					</div>
 					
 					<div class="col-sm-4">
-						<div class="price"><span class="sansSerif">₹ </span><?php echo $adults*$row["fare"]; ?></div>
-						<div class="price"><span class="sansSerif">₹ </span><?php echo $children*$row["fare"]; ?></div>
-						<div class="price"><span class="sansSerif">₹ </span>250</div>
+						<div class="price"><span class="sansSerif"> ₦ </span><?php echo $adults*$row["fare"]; ?></div>
+						<div class="price"><span class="sansSerif"> ₦ </span><?php echo $children*$row["fare"]; ?></div>
+						<div class="price"><span class="sansSerif"> ₦ </span>250</div>
 					</div>	
 					
 					<div class="col-sm-12">
@@ -198,7 +198,7 @@ if(!isset($_SESSION["username"]))
 					</div>
 					
 					<div class="col-sm-4">
-						<div class="priceTotal"><span class="sansSerif">₹ </span><?php echo ($adults*$row["fare"])+($children*$row["fare"])+250; ?></div>
+						<div class="priceTotal"><span class="sansSerif"> ₦ </span><?php echo ($adults*$row["fare"])+($children*$row["fare"])+250; ?></div>
 					</div>
 					
 					<form action="passengers.php" method="POST">
@@ -395,9 +395,9 @@ if(!isset($_SESSION["username"]))
 					</div>
 					
 					<div class="col-sm-4">
-						<div class="price"><span class="sansSerif">₹ </span><?php echo $adults*($rowOutbound["fare"]+$rowInbound["fare"]); ?></div>
-						<div class="price"><span class="sansSerif">₹ </span><?php echo $children*($rowOutbound["fare"]+$rowInbound["fare"]); ?></div>
-						<div class="price"><span class="sansSerif">₹ </span>250</div>
+						<div class="price"><span class="sansSerif"> ₦ </span><?php echo $adults*($rowOutbound["fare"]+$rowInbound["fare"]); ?></div>
+						<div class="price"><span class="sansSerif"> ₦ </span><?php echo $children*($rowOutbound["fare"]+$rowInbound["fare"]); ?></div>
+						<div class="price"><span class="sansSerif"> ₦ </span>250</div>
 					</div>	
 					
 					<div class="col-sm-12">
@@ -411,7 +411,7 @@ if(!isset($_SESSION["username"]))
 					</div>
 					
 					<div class="col-sm-4">
-						<div class="priceTotal"><span class="sansSerif">₹ </span><?php echo ($adults*($rowOutbound["fare"]+$rowInbound["fare"]))+($children*($rowOutbound["fare"]+$rowInbound["fare"]))+250; ?></div> <!-- CHANGE -->
+						<div class="priceTotal"><span class="sansSerif"> ₦ </span><?php echo ($adults*($rowOutbound["fare"]+$rowInbound["fare"]))+($children*($rowOutbound["fare"]+$rowInbound["fare"]))+250; ?></div> <!-- CHANGE -->
 					</div>
 					
 					<form action="passengers.php" method="POST">
@@ -533,8 +533,8 @@ if(!isset($_SESSION["username"]))
 					<?php $noOfDays = $diff->format("%a"); ?>
 					
 					<div class="col-sm-4">
-						<div class="price"><span class="sansSerif">₹ </span><?php echo $_SESSION["noOfRooms"]*$row["price"]*$noOfDays; ?></div>
-						<div class="price"><span class="sansSerif">₹ </span>250</div>
+						<div class="price"><span class="sansSerif"> ₦ </span><?php echo $_SESSION["noOfRooms"]*$row["price"]*$noOfDays; ?></div>
+						<div class="price"><span class="sansSerif"> ₦ </span>250</div>
 					</div>	
 					
 					<div class="col-sm-12">
@@ -548,7 +548,7 @@ if(!isset($_SESSION["username"]))
 					</div>
 					
 					<div class="col-sm-4">
-						<div class="priceTotal"><span class="sansSerif">₹ </span><?php echo ($_SESSION["noOfRooms"]*$row["price"]*$noOfDays)+250; ?></div>
+						<div class="priceTotal"><span class="sansSerif"> ₦ </span><?php echo ($_SESSION["noOfRooms"]*$row["price"]*$noOfDays)+250; ?></div>
 					</div>
 					
 					<form action="payment.php" method="POST">
@@ -666,8 +666,8 @@ if(!isset($_SESSION["username"]))
 					</div>
 					
 					<div class="col-sm-4">
-						<div class="price"><span class="sansSerif">₹ </span><?php echo $noOfPassengers*$row[$priceClass]; ?></div>
-						<div class="price"><span class="sansSerif">₹ </span>250</div>
+						<div class="price"><span class="sansSerif"> ₦ </span><?php echo $noOfPassengers*$row[$priceClass]; ?></div>
+						<div class="price"><span class="sansSerif"> ₦ </span>250</div>
 					</div>	
 					
 					<div class="col-sm-12">
@@ -681,7 +681,7 @@ if(!isset($_SESSION["username"]))
 					</div>
 					
 					<div class="col-sm-4">
-						<div class="priceTotal"><span class="sansSerif">₹ </span><?php echo ($noOfPassengers*$row[$priceClass])+250; ?></div>
+						<div class="priceTotal"><span class="sansSerif"> ₦ </span><?php echo ($noOfPassengers*$row[$priceClass])+250; ?></div>
 					</div>
 					
 					<form action="passengers.php" method="POST">

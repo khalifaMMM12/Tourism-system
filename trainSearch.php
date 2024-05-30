@@ -192,7 +192,7 @@ if(!isset($_SESSION["username"]))
 		
 					<div class="departsSubscript">
 		
-						<?php echo $class." tickets starting at "; ?><span style="font-family: sans-serif;">₹</span><?php echo $row[$priceClass]."/person"; ?>
+						<?php echo $class." tickets starting at "; ?><span style="font-family: sans-serif;"> ₦</span><?php echo $row[$priceClass]."/person"; ?>
 			
 					</div>
 		

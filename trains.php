@@ -109,7 +109,7 @@ if(!isset($_SESSION["username"]))
    								 <label for="originTrain">Origin:<p> </p></label>
      
       								<select id= "originTrain"  data-live-search="true" class="selectpicker form-control" data-size="5" title="Select Origin Station" name="origin" required>
-       									<option value="New Delhi" data-subtext="DLI" data-tokens="DLI New Delhi">New Delhi</option>
+       									<option value="Abuja" data-subtext="DLI" data-tokens="DLI Abuja">Abuja</option>
         								<option value="Howrah" data-subtext="HWH" data-tokens="HWH Howrah">Howrah</option>
        									<option value="Guwahati" data-subtext="GHY" data-tokens="GHY Guwahati">Guwahati</option>
         								<option value="Silchar" data-subtext="SCL" data-tokens="SCL Silchar">Silchar</option>
@@ -123,7 +123,7 @@ if(!isset($_SESSION["username"]))
    								 <label for="destinationTrain">Destination:<p> </p></label>
      
       								<select id= "destinationTrain"  data-live-search="true" class="selectpicker form-control" data-size="5" title="Select Destination Station" name="destination" required>
-       									<option value="New Delhi" data-subtext="DLI" data-tokens="DLI New Delhi">New Delhi</option>
+       									<option value="Abuja" data-subtext="DLI" data-tokens="DLI Abuja">Abuja</option>
         								<option value="Howrah" data-subtext="HWH" data-tokens="HWH Howrah">Howrah</option>
        									<option value="Guwahati" data-subtext="GHY" data-tokens="GHY Guwahati">Guwahati</option>
         								<option value="Silchar" data-subtext="SCL" data-tokens="SCL Silchar">Silchar</option>

@@ -222,7 +222,7 @@ if(!isset($_SESSION["username"]))
 					
 					<div class="col-sm-12 priceContainer text-center">
 						
-						₹ <?php echo $row["price"]; ?>
+						 ₦ <?php echo $row["price"]; ?>
 						
 					</div>
 						

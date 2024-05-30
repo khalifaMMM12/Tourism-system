@@ -130,7 +130,7 @@ if(!isset($_SESSION["username"]))
 			
 			<div class="totalAmount">
 				
-				Amount to be paid: <span class="sansSerif">₹</span> <?php echo $fare; ?>
+				Amount to be paid: <span class="sansSerif"> ₦</span> <?php echo $fare; ?>
 				
 			</div>
 			
