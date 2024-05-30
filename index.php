@@ -165,11 +165,11 @@
 					<div class="col-xs-12 containerGrids hvr-buzz-out">
 						
 						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/imageAndaman.jpg" alt="popularDestination1" class="picDim text-center"/>
+							<img src="images/popularDestinations/queen_aminas_wall.jpg" alt="Queen amina wall" class="picDim text-center"/>
 						</div>
 						
 						<div class="col-xs-12 heading">
-							Andaman and Nicobar
+							Queen Amina Wall of zaria
 						</div>
 						
 					</div>
@@ -177,11 +177,11 @@
 					<div class="col-xs-12 containerGrids hvr-buzz-out">
 						
 						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/imageJaisalmer.jpg" alt="popularDestination1" class="picDim text-center"/>
+							<img src="images/popularDestinations/tinapa_zone_and_resort.jpg" alt="Tinapa zone and resort" class="picDim text-center"/>
 						</div>
 						
 						<div class="col-xs-12 heading">
-							Rajasthan
+							Tinapa Zone & Resort, cross river
 						</div>
 						
 					</div>
@@ -189,11 +189,11 @@
 					<div class="col-xs-12 containerGrids hvr-buzz-out">
 						
 						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/imageKashmir.jpg" alt="popularDestination1" class="picDim text-center"/>
+							<img src="images/popularDestinations/Zuma-rock.jpg" alt="Zuma-rock" class="picDim text-center"/>
 						</div>
 						
 						<div class="col-xs-12 heading">
-							Jammu and Kashmir
+							Zuma Rock in Niger State
 						</div>
 						
 					</div>
