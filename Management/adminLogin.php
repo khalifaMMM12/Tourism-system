@@ -105,7 +105,7 @@ session_start();
 
 if(isset($_POST['but_submit'])){
 
-    $username = mysqli_real_escape_string($conn,$_POST['username']);
+    $username = mysqli_real_escape_striqng($conn,$_POST['username']);
     $password = mysqli_real_escape_string($conn,$_POST['password']);
 
     if ($username != "" && $password != ""){
