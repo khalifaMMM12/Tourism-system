@@ -1,15 +1,3 @@
-<?php session_start();
-if(!isset($_SESSION["username"]))
-{
-    	header("Location:blocked.php");
-   		$_SESSION['url'] = $_SERVER['REQUEST_URI']; 
-}
-?>
-
-<!-- dumping the current page to buffer -->
-<?php
-ob_start();
-?>
 
 <!DOCTYPE html>
 
@@ -43,34 +31,8 @@ ob_start();
 		
 		<div class="spacer">a</div>
 		
-		<?php 
-		
-		date_default_timezone_set("Africa/Lagos");
-		$date=date('l jS \of F Y \a\t h:i:s A');
-		
-		$hotelID=$_POST["hotelIDHidden"];
-		$fare=$_POST["fareHidden"];
-		
-		?>
-		
-		<?php
-		
-			$servername = "localhost";
-			$username = "root";
-			$password = "";
-			$dbname = "tourism_db";
-			
-			// Creating a connection to MySQL database
-			$conn = new mysqli($servername, $username, $password, $dbname);
-			
-			// Checking if we've successfully connected to the database
-			if ($conn->connect_error) {
-				die("Connection failed: " . $conn->connect_error);
-			}
-		
-		
-		?>
-		
+				
+				
 		<div class="col-sm-12 generateReceipt">
 		
 			<div class="commonHeader">
@@ -87,8 +49,7 @@ ob_start();
 					
 					<div class="dateTime">
 						
-						<span class="generated">Generated: </span><?php echo $date; ?>
-						
+						<span class="generated">Generated: </span>Sunday 2nd of June 2024 at 06:02:11 PM						
 					</div>
 					
 				</div>
@@ -128,14 +89,7 @@ ob_start();
 				
 				<div class="col-sm-10 boxCenter"> <!-- outboundFlight Box -->
 				
-					<?php
-					
-						$sql = "SELECT * FROM hotels WHERE hotelID='$hotelID'";
-						$result = $conn->query($sql);
-						$row = $result->fetch_assoc()
-					
-					?>
-					
+										
 					<div class="col-sm-1 borderRight text-center">
 					
 						<div class="flightOperatorHeading">
@@ -146,16 +100,12 @@ ob_start();
 						
 						<div class="flightOperator">
 						
-							<?php $hotelID=$row["hotelID"];
-							echo substr($hotelID,0,3) ?>
-							
+							12							
 						</div>
 						
 						<div class="flightNo">
 						
-							<?php $hotelID=$row["hotelID"];
-							echo substr($hotelID,3) ?>
-							
+														
 						</div>
 						
 					</div> <!-- col-sm-4 -->
@@ -170,14 +120,12 @@ ob_start();
 						
 						<div class="flightOperator">
 						
-							<?php echo $row["hotelName"]; ?>
-							
+							Lagos Oriental							
 						</div>
 						
 						<div class="flightNo">
 						
-							<?php echo $row["locality"].', '.$row["city"]; ?>
-							
+							Victoria Island, Lagos							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
@@ -192,14 +140,12 @@ ob_start();
 						
 						<div class="departs">
 						
-							<?php echo $_SESSION["checkIn"]; ?>
-							
+							04/06/2024							
 						</div>
 						
 						<div class="departsSubscript">
 						
-							<?php echo $row["checkIn"]; ?>
-							
+							00:00							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
@@ -214,14 +160,12 @@ ob_start();
 						
 						<div class="arrives">
 						
-							<?php echo $_SESSION["checkOut"]; ?>
-							
+							08/06/2024							
 						</div>
 						
 						<div class="arrivesSubscript">
 						
-							<?php echo $row["checkOut"]; ?>
-							
+							13:00							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
@@ -236,8 +180,7 @@ ob_start();
 						
 						<div class="origin">
 						
-							<?php echo $_SESSION["noOfRooms"]; ?>
-							
+							1							
 						</div>
 						
 						<div class="originSubscript">
@@ -258,8 +201,7 @@ ob_start();
 						
 						<div class="origin">
 						
-							<?php echo $_SESSION["noOfGuests"]; ?>
-							
+							1							
 						</div>
 						
 						<div class="destinationSubscript">
@@ -334,8 +276,7 @@ ob_start();
 								
 							<div class="serialNo text-center">
 								
-								<span class="rupee"> ₦</span><?php echo $row["price"]; ?>
-								
+								<span class="rupee"> ₦</span>170000								
 							</div>
 								
 						</div>
@@ -344,8 +285,7 @@ ob_start();
 								
 							<div class="serialNo text-center">
 								
-								<span class="rupee"> ₦</span><?php echo $fare ?>
-								
+								<span class="rupee"> ₦</span>680250								
 							</div>
 								
 						</div>
@@ -433,23 +373,5 @@ ob_start();
 
 <!-- after user login system is built push the username using the curent session to the database -->
 
-<?php
-	
-	$user = $_SESSION["username"];
-	$dateFormatted = date("d-m-Y"); 
-	$hotelName = $row["hotelName"].', '.$row["locality"].', '.$row["city"];
-	$bookingDataInsertSQL = "INSERT INTO `hotelbookings`(hotelName,date,username,cancelled) VALUES('$hotelName','$dateFormatted','$user','no')";
-	$bookingDataInsertQuery = $conn->query($bookingDataInsertSQL);
-				
-	$bookingIDSQL = "SELECT * FROM `hotelbookings` ORDER BY `bookingID` DESC LIMIT 1";
-	$bookingIDQuery = $conn->query($bookingIDSQL);
-	$bookingIDGet = $bookingIDQuery ->fetch_array(MYSQLI_NUM);
-	$latestBookingID = $bookingIDGet[0];
-	$currentBookingID = $latestBookingID;
-								
-?>
 		
 <!-- saving the file as temp.html -->
-<?php
-file_put_contents('receipts\receipt'.$currentBookingID.'.html', ob_get_contents());
-?>

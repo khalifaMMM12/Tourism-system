@@ -65,7 +65,7 @@
 				<span class="bold"><h2>We're located at:</h2></span>
 				</br>
 				<br>
-				<h4>CUSAT,Cochin,Kerala,India</h4>
+				<h4>Central Area, Abuja,Nigeria</h4>
 			
 			</div>
 		
@@ -82,7 +82,7 @@
 			<label for="email">E-mail:</label>
 			<input type="text" class="input" name="email" required/>
 			
-			<label for="queries">Queries:</label>
+			<label for="queries">Review:</label>
 			<textarea class="input" name="queries" required></textarea>
 			
 			<div class="text-center">
