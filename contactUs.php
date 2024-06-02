@@ -97,8 +97,8 @@
 		
 		</div>
 	
-	<div class="col-xs-12 spacer">.</div> <!-- just a dummy class for creating some space -->
-	<div class="col-xs-12 spacer">.</div> <!-- just a dummy class for creating some space -->
+	<div class="col-xs-12 spacer">.</div> 
+	<div class="col-xs-12 spacer">.</div> 
 			
 		<?php include("common/footer.php"); ?>
 				
