@@ -122,7 +122,7 @@ if(!isset($_SESSION["username"]))
         								<option value="Port Harcourt" data-tokens="BOM Port Harcourt">Port Harcourt</option>
         								<option value="Lagos" data-tokens="CCU Lagos">Lagos</option>
         								<option value="Kano" data-tokens="MAA Kano">Kano</option>
-        								<option value="Kaduna" data-tokens="MAN Kaduna">Kaduna</option>
+        								<!-- <option value="Kaduna" data-tokens="MAN Kaduna">Kaduna</option> -->
       								</select>
 							</div>
             			</div>

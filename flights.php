@@ -140,45 +140,29 @@ if(!isset($_SESSION["username"]))
     						
 							</div> <!-- radioContainer -->
     					
-    						<div class="col-sm-6">			
+    					<div class="col-sm-6">			
    							<div class="form-group">
    								 <label for="origin">Origin:<p> </p></label>
-     
-      								<select id= "origin"  data-live-search="true" class="selectpicker form-control" data-size="5" title="Select Origin" name="origin" required>
-       									<option value="Abuja" data-subtext="DEL" data-tokens="DEL Abuja">Abuja</option>
-        								<option value="Port Harcourt" data-subtext="BOM" data-tokens="BOM Port Harcourt">Port Harcourt</option>
-        								<option value="Lagos" data-subtext="CCU" data-tokens="CCU Lagos">Lagos</option>
-        								<option value="Bengaluru" data-subtext="BLR" data-tokens="BLR Bengaluru">Bengaluru</option>
-        								<option value="Pune" data-subtext="PNQ" data-tokens="PNQ Pune">Pune</option>
-        								<option value="Kano" data-subtext="MAA" data-tokens="MAA Kano">Kano</option>
-        								<option value="Guwahati" data-subtext="GAU" data-tokens="GAU Guwahati">Guwahati</option>
-        								<option value="Bhopal" data-subtext="BHO" data-tokens="BHI Bhopal">Bhopal</option>
-        								<option value="Jaipur" data-subtext="JAI" data-tokens="JAI Jaipur">Jaipur</option>
-        								<option value="Ahmedabad" data-subtext="AMD" data-tokens="AMD Ahmedabad">Ahmedabad</option>
-        								<option value="Hyderabad" data-subtext="HYD" data-tokens="HYD Hyderabad">Hyderabad</option>
-      								</select>
-							</div>
-            			</div>
-            			
-            				<div class="col-sm-6">			
-   							<div class="form-group">
-   								 <label for="destination">Destination:<p> </p></label>
-     
-      								<select id= "destination"  data-live-search="true" class="selectpicker form-control" data-size="5" title="Select Destination" name="destination" required>
-       									<option value="Abuja" data-subtext="DEL" data-tokens="DEL Abuja">Abuja</option>
-        								<option value="Port Harcourt" data-subtext="BOM" data-tokens="BOM Port Harcourt">Port Harcourt</option>
-        								<option value="Lagos" data-subtext="CCU" data-tokens="CCU Lagos">Lagos</option>
-        								<option value="Bengaluru" data-subtext="BLR" data-tokens="BLR Bengaluru">Bengaluru</option>
-        								<option value="Pune" data-subtext="PNQ" data-tokens="PNQ Pune">Pune</option>
-        								<option value="Kano" data-subtext="MAA" data-tokens="MAA Kano">Kano</option>
-        								<option value="Guwahati" data-subtext="GAU" data-tokens="GAU Guwahati">Guwahati</option>
-        								<option value="Bhopal" data-subtext="BHO" data-tokens="BHI Bhopal">Bhopal</option>
-        								<option value="Jaipur" data-subtext="JAI" data-tokens="JAI Jaipur">Jaipur</option>
-        								<option value="Ahmedabad" data-subtext="AMD" data-tokens="AMD Ahmedabad">Ahmedabad</option>
-        								<option value="Hyderabad" data-subtext="HYD" data-tokens="HYD Hyderabad">Hyderabad</option>
-      								</select>
-							</div>
-            			</div>
+								<select id="origin" data-live-search="true" class="selectpicker form-control" data-size="5" title="Select Origin" name="origin" required>
+            						<option value="Abuja" data-subtext="ABV" data-tokens="ABV Abuja">Abuja</option>
+            						<option value="Port Harcourt" data-subtext="PHC" data-tokens="PHC Port Harcourt">Port Harcourt</option>
+            						<option value="Lagos" data-subtext="LOS" data-tokens="LOS Lagos">Lagos</option>
+            						<option value="Kano" data-subtext="KAN" data-tokens="KAN Kano">Kano</option>
+        						</select>
+    						</div>
+						</div>
+
+						<div class="col-sm-6">			
+    						<div class="form-group">
+        						<label for="destination">Destination:<p> </p></label>
+        						<select id="destination" data-live-search="true" class="selectpicker form-control" data-size="5" title="Select Destination" name="destination" required>
+            						<option value="Abuja" data-subtext="ABV" data-tokens="ABV Abuja">Abuja</option>
+            						<option value="Port Harcourt" data-subtext="PHC" data-tokens="PHC Port Harcourt">Port Harcourt</option>
+            						<option value="Lagos" data-subtext="LOS" data-tokens="LOS Lagos">Lagos</option>
+            						<option value="Kano" data-subtext="KAN" data-tokens="KAN Kano">Kano</option>
+        						</select>
+    						</div>
+						</div>
             			
             				<div class="col-sm-3">
         						<div class="form-group">
@@ -269,11 +253,11 @@ if(!isset($_SESSION["username"]))
 						</div>
 							
 						<div class="footerText">
-							CUSAT,Cochin <br> Kerala, India
+							Central Area <br> Abuja, Nigeria
 						</div>
 				
 						<div class="footerText">
-							E-mail: queries@tourism_management.com
+							E-mail: Khalifasitemsn@gmail.com
 						</div>
 						
 					</div>
@@ -313,7 +297,7 @@ if(!isset($_SESSION["username"]))
 					<div class="col-sm-12">
 					<div class="copyrightContainer">
 						<div class="copyright">
-						Copyright &copy; 2021 Alisha Anand
+						Copyright &copy; 2024 MMM
 						</div>
 					</div>
 					</div>
