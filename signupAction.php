@@ -34,7 +34,7 @@
 
 	<?php
 		
-		date_default_timezone_set("Asia/Lagos");
+		date_default_timezone_set("Africa/Lagos");
 		$date=date('l jS \of F Y \a\t h:i:s A');
 		
 		require("php/PasswordHash.php");
