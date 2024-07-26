@@ -10,7 +10,7 @@
   		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
-		<title>Receipt | tourism_management</title>
+		<title>E-Ticket | tourism_management</title>
     
     	<link href="css/main.css" rel="stylesheet">
     	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 	<!-- BODY TAG STARTS -->
 	
 	<body>
-		
+
 			<div class="col-sm-12">
 				
 				<div class="header">
@@ -69,7 +69,7 @@
 		
 				
 				
-		<div class="col-sm-12 generateReceipt">
+		<div class="col-sm-12 generateTicket">
 		
 			<div class="commonHeader">
 				
@@ -79,19 +79,20 @@
 					
 					<div class="headingOne">
 						
-						Booking Receipt
+						E-Ticket
 						
 					</div>
 					
 					<div class="dateTime">
 						
-						<span class="generated">Generated: </span>Friday 26th of July 2024 at 06:29:17 AM						
+						<span class="generated">Generated: </span>Friday 26th of July 2024 at 07:14:37 AM						
 					</div>
 					
 				</div>
 				
 				<div class="col-sm-3 text-right">
 					
+					<!-- <a href="./"><img src="images/logo.png" alt="Project Meteor Logo" /></a> -->
 					
 				</div>
 				
@@ -103,9 +104,12 @@
 				<div class="col-sm-10 bar"></div>
 				<div class="col-sm-1"></div>
 					
-			</div> <!-- contains the header  -->
-				
-				<div class="col-sm-12"></div> <!-- empty class -->
+			</div> <!-- contains the header and logo -->
+			
+			<!-- changing contents of the page based on mode -->
+			
+						
+			<div class="col-sm-12"></div> <!-- empty class -->
 			
 				<div class="col-sm-1"></div>
 				
@@ -113,7 +117,7 @@
 			
 					<div class="subHeading">
 						
-						Booking Information:
+						Outbound Flight
 						
 					</div>
 				
@@ -125,43 +129,63 @@
 				
 				<div class="col-sm-10 boxCenter"> <!-- outboundFlight Box -->
 				
-										
-					<div class="col-sm-1 borderRight text-center">
+									
+					<div class="col-sm-2 borderRight text-center">
 					
 						<div class="flightOperatorHeading">
 						
-							Hotel ID
+							Operator
 							
 						</div>
 						
 						<div class="flightOperator">
 						
-							14							
+							Azman Air							
 						</div>
 						
 						<div class="flightNo">
 						
-														
+							LOS-006							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
 					
-					<div class="col-sm-3 borderRight text-center">
+					<div class="col-sm-2 borderRight text-center">
 					
-						<div class="flightOperatorHeading">
+						<div class="originHeading">
 						
-							Hotel Name
+							Origin
 							
 						</div>
 						
-						<div class="flightOperator">
+						<div class="origin">
 						
-							Tahir Guest Palace							
+							Lagos							
 						</div>
 						
-						<div class="flightNo">
+						<div class="originSubscript">
 						
-							 Ibrahim Natsugune Road,, Kano							
+							LOS							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+					<div class="col-sm-2 borderRight text-center">
+					
+						<div class="destinationHeading">
+						
+							Destination
+							
+						</div>
+						
+						<div class="origin">
+						
+							Kano							
+						</div>
+						
+						<div class="destinationSubscript">
+						
+							KAN							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
@@ -170,7 +194,7 @@
 					
 						<div class="departsHeading">
 						
-							Check In
+							Departure
 							
 						</div>
 						
@@ -181,7 +205,7 @@
 						
 						<div class="departsSubscript">
 						
-							14:00							
+							15:00							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
@@ -190,66 +214,46 @@
 					
 						<div class="arrivesHeading">
 						
-							Check Out
+							Arrival
 							
 						</div>
 						
 						<div class="arrives">
 						
-							06/08/2024							
+							03/08/2024							
 						</div>
 						
 						<div class="arrivesSubscript">
 						
-							00:00							
-						</div>
-						
-					</div> <!-- col-sm-4 -->
-					
-					<div class="col-sm-2 borderRight text-center">
-					
-						<div class="originHeading">
-						
-							No. of rooms
-							
-						</div>
-						
-						<div class="origin">
-						
-							1							
-						</div>
-						
-						<div class="originSubscript">
-						
-							rooms
-							
+							16:30							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
 					
 					<div class="col-sm-2 text-center">
 					
-						<div class="destinationHeading">
+						<div class="classHeading">
 						
-							No. of guests
+							Class
 							
 						</div>
 						
-						<div class="origin">
+						<div class="class">
 						
-							1							
+							Business							
 						</div>
 						
-						<div class="destinationSubscript">
+						<div class="classSubscript">
 						
-							guests
-							
+							Refundable							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
 					
 				</div> <!-- outboundFlight Box -->
 			
+				<div class="col-sm-1"></div>
+				
 				<div class="col-sm-12 spacer">a</div>
 				
 				<div class="col-sm-1"></div>
@@ -258,7 +262,150 @@
 			
 					<div class="subHeading">
 						
-						Payment Information
+						Inbound Flight
+						
+					</div>
+				
+				</div>
+							
+				<div class="col-sm-12"></div> <!-- empty class -->
+			
+				<div class="col-sm-1"></div>
+				
+				<div class="col-sm-10 boxCenter"> <!-- inboundFlight Box -->
+				
+									
+					<div class="col-sm-2 borderRight text-center">
+					
+						<div class="flightOperatorHeading">
+						
+							Operator
+							
+						</div>
+						
+						<div class="flightOperator">
+						
+							Max Air							
+						</div>
+						
+						<div class="flightNo">
+						
+							KAN-004							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+					<div class="col-sm-2 borderRight text-center">
+					
+						<div class="originHeading">
+						
+							Origin
+							
+						</div>
+						
+						<div class="origin">
+						
+							Kano							
+						</div>
+						
+						<div class="originSubscript">
+						
+							KAN							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+					<div class="col-sm-2 borderRight text-center">
+					
+						<div class="destinationHeading">
+						
+							Destination
+							
+						</div>
+						
+						<div class="origin">
+						
+							Lagos							
+						</div>
+						
+						<div class="destinationSubscript">
+						
+							LOS							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+					<div class="col-sm-2 borderRight text-center">
+					
+						<div class="departsHeading">
+						
+							Departure
+							
+						</div>
+						
+						<div class="departs">
+						
+							05/09/2024							
+						</div>
+						
+						<div class="departsSubscript">
+						
+							13:00							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+					<div class="col-sm-2 borderRight text-center">
+					
+						<div class="arrivesHeading">
+						
+							Arrival
+							
+						</div>
+						
+						<div class="arrives">
+						
+							05/09/2024							
+						</div>
+						
+						<div class="arrivesSubscript">
+						
+							14:30							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+					<div class="col-sm-2 text-center">
+					
+						<div class="classHeading">
+						
+							Class
+							
+						</div>
+						
+						<div class="class">
+						
+							Business							
+						</div>
+						
+						<div class="classSubscript">
+						
+							Refundable							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+				</div> <!-- inboundFlight Box -->
+				
+				<div class="col-sm-12 spacer">a</div>
+				
+				<div class="col-sm-1"></div>
+				
+				<div class="col-sm-10">
+			
+					<div class="subHeading">
+						
+						Passenger Details
 						
 					</div>
 				
@@ -276,31 +423,31 @@
 					
 						<div class="columnHeaders">
 							
-							<div class="col-sm-4 borderBottom">
+							<div class="col-sm-2 borderBottom">
 								
 								<div class="serialNoHeader text-center">
 									
-									Charge per room
+									Sl. No.
 									
 								</div>
 								
 							</div>
 							
-							<div class="col-sm-4 borderBottom">
+							<div class="col-sm-7 borderBottom">
 								
 								<div class="passengerNameHeader text-center">
 									
-									Amount paid
+									Name of the passenger
 									
 								</div>
 								
 							</div>
 							
-							<div class="col-sm-4 borderBottom">
+							<div class="col-sm-3 borderBottom">
 								
 								<div class="genderHeader text-center">
 									
-									Payment Mode
+									Gender
 									
 								</div>
 								
@@ -308,38 +455,44 @@
 							
 						</div> <!-- columnHeaders -->
 						
-						<div class="col-sm-4">
+												
+						<div class="col-sm-2">
 								
-							<div class="serialNo text-center">
-								
-								<span class="rupee"> ₦</span>93000								
-							</div>
-								
-						</div>
-						
-						<div class="col-sm-4">
-								
-							<div class="serialNo text-center">
-								
-								<span class="rupee"> ₦</span>279250								
-							</div>
-								
-						</div>
-						
-						<div class="col-sm-4">
-								
-							<div class="serialNo text-center">
-								
-								Card Payment
+								<div class="serialNo text-center">
+									
+									1									
+								</div>
 								
 							</div>
+							
+							<div class="col-sm-7">
 								
-						</div>	
+								<div class="passengerName text-center">
+									
+									Khalifa Muhammad									
+								</div>
+								
+							</div>
+							
+							<div class="col-sm-3">
+								
+								<div class="gender text-center">
+									
+									Male									
+								</div>
+								
+							</div>
+							
+														
 						
 					</div> <!-- boxCenter -->
 				
 				<div class="col-sm-1"></div>
 			
+			
+			
+			
+						
 			<div class="importantInfo">
 			
 				<div class="col-sm-12"></div> <!-- empty class -->
@@ -375,13 +528,19 @@
 					
 					<div class="info">
 						
-						<span class="strong">1.</span> A printed copy of this receipt must be presented at the time of check-in.						
+						<span class="strong">1.</span> A printed copy of this E-ticket must be presented at the time of check-in.						
 						
 					</div>
 					
 					<div class="info">
 						
-						<!-- <span class="strong">2.</span> It is mandatory to have a Government recognised photo identification (ID) when checking-in. This can include: Driving License, Passport, PAN Card, Voter ID Card or any other ID issued by the Government of India. -->
+						<span class="strong">2.</span> Check-in starts 2 hours before scheduled departure and closes 45 minutes prior to the departure time. We recommend you report at the check-in counter at least 2 hours prior to the departure time.
+						
+					</div>
+					
+					<div class="info">
+						
+						<span class="strong">3.</span> It is mandatory to carry Government recognised photo identification (ID) along with your E-Ticket. This can include: Driving License, Passport, PAN Card, Voter ID Card or any other ID issued by the Government of India. For infant passengers, it is mandatory to carry the Date of Birth certificate.
 						
 					</div>
 					
@@ -408,6 +567,5 @@
 </html>
 
 <!-- after user login system is built push the username using the curent session to the database -->
-
 		
 <!-- saving the file as temp.html -->

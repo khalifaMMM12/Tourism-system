@@ -44,9 +44,9 @@
 					
 					?>
 				
-				</div> <!-- header -->
+				</div> 
 			
-			</div> <!-- col-sm-12 -->
+			</div>
 				
 			<!-- HEADER SECTION ENDS -->
 	

@@ -29,13 +29,13 @@ if(!isset($_SESSION['username'])){
         <h3><a href="hotelbookings_view.php">HOTEL BOOKINGS</a></h3>
         <h3><a href="flights_add.php">ADD FLIGHTS</a></h3>
         <h3><a href="flightbookings_view.php">FLIGHT BOOKINGS</a></h3>
-        <h3><a href="trains_add.php">ADD TRAINS</a></h3>
-        <h3><a href="trainbookings_view.php">TRAIN BOOKINGS</a></h3>
+        <!-- <h3><a href="trains_add.php">ADD TRAINS</a></h3> -->
+        <!-- <h3><a href="trainbookings_view.php">TRAIN BOOKINGS</a></h3> -->
         <h3><a href="adminLogout.php">LOGOUT</a></h3>
     </center>
 </div>
 <center>
-    <a href="\travel\index.php"><button class="btn btn-secondary"><h5>Click here to go to user panel</h5></button></a>
+    <a href="/tourism-system/Tourism-system/index.php"><button class="btn btn-secondary"><h5>Click here to go to user panel</h5></button></a>
 </center>
 </body>
 </html>

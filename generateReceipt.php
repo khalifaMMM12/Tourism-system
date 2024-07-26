@@ -41,6 +41,25 @@ ob_start();
 	
 	<body>
 		
+			<div class="col-sm-12">
+				
+				<div class="header">
+					
+					<?php
+					
+					if(!isset($_SESSION["username"])) {
+						include("common/headerTransparentLoggedOut.php");
+					}
+					else {
+						include("common/headerTransparentLoggedIn.php");
+					}
+					
+					?>
+				
+				</div> 
+			
+			</div>
+		
 		<div class="spacer">a</div>
 		
 		<?php 

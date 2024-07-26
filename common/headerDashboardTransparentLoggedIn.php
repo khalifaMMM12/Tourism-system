@@ -17,7 +17,7 @@
 				<a href="aboutUs.php"><li>About Us</li></a>
 				<li class="active">Dashboard</li>
 				<a href="logout.php"><li>Logout</li></a>
-				<a href="contactUs.php"><li>Contact Us</li></a>
+				<a href="/tourism-system/Tourism-system/management/Home.php"><li>Admin</li></a>
 			</ul>
 			
 		</div>

@@ -224,8 +224,8 @@ if(isset($_POST['update'])){
               <li><a href="hotelbookings_view.php">HOTEL BOOKINGS</a></li>
               <li><a href="flights_add.php">ADD FLIGHTS</a></li>
               <li><a href="flightbookings_view.php">FLIGHT BOOKINGS</a></li>
-              <li><a href="trains_add.php">ADD TRAINS</a></li>
-              <li><a href="trainbookings_view.php">TRAIN BOOKINGS</a></li>
+              <!-- <li><a href="trains_add.php">ADD TRAINS</a></li> -->
+              <!-- <li><a href="trainbookings_view.php">TRAIN BOOKINGS</a></li> -->
 			  <h3><a href="adminLogout.php">LOGOUT</a></h3>
     </ul>
   </div>

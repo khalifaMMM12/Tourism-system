@@ -57,7 +57,6 @@ if (!isset($_SESSION["username"])) {
 
     // Debugging: Display SQL query
     $sql = "SELECT * FROM flights WHERE origin='$origin' AND destination='$destination' AND class='$className' ORDER BY seats_available DESC";
-    echo "<p>SQL Query: $sql</p>";
 
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {

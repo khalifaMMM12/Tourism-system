@@ -10,7 +10,7 @@
   		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
-		<title>Receipt | tourism_management</title>
+		<title>E-Ticket | tourism_management</title>
     
     	<link href="css/main.css" rel="stylesheet">
     	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,47 +29,13 @@
 	
 	<body>
 		
-			<div class="col-sm-12">
-				
-				<div class="header">
-					
-					<div class="col-sm-12">
-					
-	<div class="header">
-	
-		<div class="col-sm-4">
-	
-		<div class=""></div>
-		
-	</div>
-	
-		<div class="col-sm-8">
-	
-		<div class="headerMenu">
-			
-			<ul>
-				<a href="index.php"><li>Home</li></a>
-				<a href="aboutUs.php"><li>About Us</li></a>
-				<a href="userDashboardProfile.php"><li>Dashboard</li></a>
-				<a href="logout.php"><li>Logout</li></a>
-				<a href="/tourism-system/Tourism-system/management/Home.php"><li>Admin</li></a>
-			</ul>
-			
-		</div>
-	</div>
-	
-	</div> <!-- header -->
-				
-</div> <!-- col-sm-12 MENU -->				
-				</div> 
-			
-			</div>
-		
 		<div class="spacer">a</div>
 		
+		<br />
+<b>Notice</b>:  date_default_timezone_set(): Timezone ID 'Asia/Lagos' is invalid in <b>C:\xampp\htdocs\Tourism-System\Tourism-system\generateTicket.php</b> on line <b>48</b><br />
+		
 				
-				
-		<div class="col-sm-12 generateReceipt">
+		<div class="col-sm-12 generateTicket">
 		
 			<div class="commonHeader">
 				
@@ -79,19 +45,20 @@
 					
 					<div class="headingOne">
 						
-						Booking Receipt
+						E-Ticket
 						
 					</div>
 					
 					<div class="dateTime">
 						
-						<span class="generated">Generated: </span>Friday 26th of July 2024 at 06:29:17 AM						
+						<span class="generated">Generated: </span>Friday 26th of July 2024 at 08:12:04 AM						
 					</div>
 					
 				</div>
 				
 				<div class="col-sm-3 text-right">
 					
+					<a href="./"><img src="images/logo.png" alt="Project Meteor Logo" /></a>
 					
 				</div>
 				
@@ -103,8 +70,11 @@
 				<div class="col-sm-10 bar"></div>
 				<div class="col-sm-1"></div>
 					
-			</div> <!-- contains the header  -->
-				
+			</div> <!-- contains the header and logo -->
+			
+			<!-- changing contents of the page based on mode -->
+			
+							
 				<div class="col-sm-12"></div> <!-- empty class -->
 			
 				<div class="col-sm-1"></div>
@@ -113,7 +83,7 @@
 			
 					<div class="subHeading">
 						
-						Booking Information:
+						Outbound Flight
 						
 					</div>
 				
@@ -125,83 +95,23 @@
 				
 				<div class="col-sm-10 boxCenter"> <!-- outboundFlight Box -->
 				
-										
-					<div class="col-sm-1 borderRight text-center">
+									
+					<div class="col-sm-2 borderRight text-center">
 					
 						<div class="flightOperatorHeading">
 						
-							Hotel ID
+							Operator
 							
 						</div>
 						
 						<div class="flightOperator">
 						
-							14							
+							Air Peace							
 						</div>
 						
 						<div class="flightNo">
 						
-														
-						</div>
-						
-					</div> <!-- col-sm-4 -->
-					
-					<div class="col-sm-3 borderRight text-center">
-					
-						<div class="flightOperatorHeading">
-						
-							Hotel Name
-							
-						</div>
-						
-						<div class="flightOperator">
-						
-							Tahir Guest Palace							
-						</div>
-						
-						<div class="flightNo">
-						
-							 Ibrahim Natsugune Road,, Kano							
-						</div>
-						
-					</div> <!-- col-sm-4 -->
-					
-					<div class="col-sm-2 borderRight text-center">
-					
-						<div class="departsHeading">
-						
-							Check In
-							
-						</div>
-						
-						<div class="departs">
-						
-							03/08/2024							
-						</div>
-						
-						<div class="departsSubscript">
-						
-							14:00							
-						</div>
-						
-					</div> <!-- col-sm-4 -->
-					
-					<div class="col-sm-2 borderRight text-center">
-					
-						<div class="arrivesHeading">
-						
-							Check Out
-							
-						</div>
-						
-						<div class="arrives">
-						
-							06/08/2024							
-						</div>
-						
-						<div class="arrivesSubscript">
-						
-							00:00							
+							ABV-001							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
@@ -210,40 +120,98 @@
 					
 						<div class="originHeading">
 						
-							No. of rooms
+							Origin
 							
 						</div>
 						
 						<div class="origin">
 						
-							1							
+							Abuja							
 						</div>
 						
 						<div class="originSubscript">
 						
-							rooms
+							ABV							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+					<div class="col-sm-2 borderRight text-center">
+					
+						<div class="destinationHeading">
+						
+							Destination
 							
+						</div>
+						
+						<div class="origin">
+						
+							Lagos							
+						</div>
+						
+						<div class="destinationSubscript">
+						
+							LOS							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+					<div class="col-sm-2 borderRight text-center">
+					
+						<div class="departsHeading">
+						
+							Departure
+							
+						</div>
+						
+						<div class="departs">
+						
+							02/08/2024							
+						</div>
+						
+						<div class="departsSubscript">
+						
+							09:00							
+						</div>
+						
+					</div> <!-- col-sm-4 -->
+					
+					<div class="col-sm-2 borderRight text-center">
+					
+						<div class="arrivesHeading">
+						
+							Arrival
+							
+						</div>
+						
+						<div class="arrives">
+						
+							02/08/2024							
+						</div>
+						
+						<div class="arrivesSubscript">
+						
+							10:30							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
 					
 					<div class="col-sm-2 text-center">
 					
-						<div class="destinationHeading">
+						<div class="classHeading">
 						
-							No. of guests
+							Class
 							
 						</div>
 						
-						<div class="origin">
+						<div class="class">
 						
-							1							
+							Economy							
 						</div>
 						
-						<div class="destinationSubscript">
+						<div class="classSubscript">
 						
-							guests
-							
+							Non-Refundable							
 						</div>
 						
 					</div> <!-- col-sm-4 -->
@@ -258,7 +226,7 @@
 			
 					<div class="subHeading">
 						
-						Payment Information
+						Passenger Details
 						
 					</div>
 				
@@ -276,31 +244,31 @@
 					
 						<div class="columnHeaders">
 							
-							<div class="col-sm-4 borderBottom">
+							<div class="col-sm-2 borderBottom">
 								
 								<div class="serialNoHeader text-center">
 									
-									Charge per room
+									Sl. No.
 									
 								</div>
 								
 							</div>
 							
-							<div class="col-sm-4 borderBottom">
+							<div class="col-sm-7 borderBottom">
 								
 								<div class="passengerNameHeader text-center">
 									
-									Amount paid
+									Name of the passenger
 									
 								</div>
 								
 							</div>
 							
-							<div class="col-sm-4 borderBottom">
+							<div class="col-sm-3 borderBottom">
 								
 								<div class="genderHeader text-center">
 									
-									Payment Mode
+									Gender
 									
 								</div>
 								
@@ -308,38 +276,42 @@
 							
 						</div> <!-- columnHeaders -->
 						
-						<div class="col-sm-4">
+												
+						<div class="col-sm-2">
 								
-							<div class="serialNo text-center">
-								
-								<span class="rupee"> ₦</span>93000								
-							</div>
-								
-						</div>
-						
-						<div class="col-sm-4">
-								
-							<div class="serialNo text-center">
-								
-								<span class="rupee"> ₦</span>279250								
-							</div>
-								
-						</div>
-						
-						<div class="col-sm-4">
-								
-							<div class="serialNo text-center">
-								
-								Card Payment
+								<div class="serialNo text-center">
+									
+									1									
+								</div>
 								
 							</div>
+							
+							<div class="col-sm-7">
 								
-						</div>	
+								<div class="passengerName text-center">
+									
+									Khalifa Muhammad									
+								</div>
+								
+							</div>
+							
+							<div class="col-sm-3">
+								
+								<div class="gender text-center">
+									
+									Male									
+								</div>
+								
+							</div>
+							
+									
 						
 					</div> <!-- boxCenter -->
 				
 				<div class="col-sm-1"></div>
 			
+			
+						
 			<div class="importantInfo">
 			
 				<div class="col-sm-12"></div> <!-- empty class -->
@@ -375,13 +347,19 @@
 					
 					<div class="info">
 						
-						<span class="strong">1.</span> A printed copy of this receipt must be presented at the time of check-in.						
+						<span class="strong">1.</span> A printed copy of this E-ticket must be presented at the time of check-in.						
 						
 					</div>
 					
 					<div class="info">
 						
-						<!-- <span class="strong">2.</span> It is mandatory to have a Government recognised photo identification (ID) when checking-in. This can include: Driving License, Passport, PAN Card, Voter ID Card or any other ID issued by the Government of India. -->
+						<span class="strong">2.</span> Check-in starts 2 hours before scheduled departure and closes 45 minutes prior to the departure time. We recommend you report at the check-in counter at least 2 hours prior to the departure time.
+						
+					</div>
+					
+					<div class="info">
+						
+						<span class="strong">3.</span> It is mandatory to carry Government recognised photo identification (ID) along with your E-Ticket. This can include: Driving License, Passport, PAN Card, Voter ID Card or any other ID issued by the Government of India. For infant passengers, it is mandatory to carry the Date of Birth certificate.
 						
 					</div>
 					
@@ -408,6 +386,5 @@
 </html>
 
 <!-- after user login system is built push the username using the curent session to the database -->
-
 		
 <!-- saving the file as temp.html -->

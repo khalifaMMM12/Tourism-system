@@ -40,12 +40,31 @@ ob_start();
 	<!-- BODY TAG STARTS -->
 	
 	<body>
+
+			<div class="col-sm-12">
+				
+				<div class="header">
+					
+					<?php
+					
+					if(!isset($_SESSION["username"])) {
+						include("common/headerTransparentLoggedOut.php");
+					}
+					else {
+						include("common/headerTransparentLoggedIn.php");
+					}
+					
+					?>
+				
+				</div> 
+			
+			</div>
 		
 		<div class="spacer">a</div>
 		
 		<?php 
 		
-		date_default_timezone_set("Asia/Lagos");
+		date_default_timezone_set("Africa/Lagos");
 		$date=date('l jS \of F Y \a\t h:i:s A');
 		
 		$totalPassengers=$_POST["totalPassengersHidden"];
@@ -201,7 +220,7 @@ ob_start();
 				
 				<div class="col-sm-3 text-right">
 					
-					<a href="./"><img src="images/logo.png" alt="Project Meteor Logo" /></a>
+					<!-- <a href="./"><img src="images/logo.png" alt="Project Meteor Logo" /></a> -->
 					
 				</div>
 				
