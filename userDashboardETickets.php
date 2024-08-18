@@ -118,9 +118,9 @@ if(!isset($_SESSION["username"]))
 					$flightBookingsQuery = $conn->query($flightBookingsSQL);
 					$noOfFlightBookings = $flightBookingsQuery->fetch_array(MYSQLI_NUM);
 				     // train bookings query
-					$trainBookingsSQL = "SELECT COUNT(*) FROM `trainbookings` WHERE username='$user' AND cancelled='no'";
-					$trainBookingsQuery = $conn->query($trainBookingsSQL);
-					$noOfTrainBookings = $trainBookingsQuery->fetch_array(MYSQLI_NUM);
+					// $trainBookingsSQL = "SELECT COUNT(*) FROM `trainbookings` WHERE username='$user' AND cancelled='no'";
+					// $trainBookingsQuery = $conn->query($trainBookingsSQL);
+					// $noOfTrainBookings = $trainBookingsQuery->fetch_array(MYSQLI_NUM);
 				
 				?>
 				
@@ -227,7 +227,10 @@ if(!isset($_SESSION["username"]))
 				--------------------------------------------------------------------------------------------------->
 				
 				
-				<?php if($noOfTrainBookings[0]>0): ?>
+				<?php 
+				// if($noOfTrainBookings[0]>0):
+					
+					?>
 					
 					
 					<!-------------------------------------------------------------------------------------------------
@@ -271,10 +274,11 @@ if(!isset($_SESSION["username"]))
 							<?php } ?>
 					
 						</table>
-						
 				</div>
 				
-				<?php else: ?>
+				<?php 
+				// else:
+					 ?>
 				
 				<div class="col-sm-12 ticketTableContainer" id="trainTicketsWrapper">
 				
@@ -286,7 +290,9 @@ if(!isset($_SESSION["username"]))
 				
 				</div>
 				
-				<?php endif; ?>
+				<?php 
+			// endif;
+			 ?>
 				
 				
 				

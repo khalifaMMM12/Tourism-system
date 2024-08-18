@@ -4,7 +4,7 @@
 	
 		<div class="col-sm-4">
 	
-		<div class="logo"></div>
+		<div class="logo">JayToursim</div>
 		
 	</div>
 	

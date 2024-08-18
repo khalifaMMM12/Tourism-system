@@ -119,9 +119,9 @@ if(!isset($_SESSION["username"]))
 					$noOfFlightBookings = $flightBookingsQuery->fetch_array(MYSQLI_NUM);
 				   
 					//trains bookings check query
-					$trainBookingsSQL = "SELECT COUNT(*) FROM `trainbookings` WHERE Username='$user' AND cancelled='no'";
-					$trainBookingsQuery = $conn->query($trainBookingsSQL);
-					$noOfTrainBookings = $trainBookingsQuery->fetch_array(MYSQLI_NUM);
+					// $trainBookingsSQL = "SELECT COUNT(*) FROM `trainbookings` WHERE Username='$user' AND cancelled='no'";
+					// $trainBookingsQuery = $conn->query($trainBookingsSQL);
+					// $noOfTrainBookings = $trainBookingsQuery->fetch_array(MYSQLI_NUM);
 				
 				?>
 				
@@ -138,7 +138,7 @@ if(!isset($_SESSION["username"]))
 					<select class="input" name="ticketTypeSelector" id="ticketTypeSelector"/>
 						
 						<option value="flightTickets">Flight Tickets</option>
-						<option value="trainTickets">Train Tickets</option> <!-- change echo -->
+						<!-- <option value="trainTickets">Train Tickets</option> change echo -->
 						
 					</select>
 					
@@ -227,7 +227,9 @@ if(!isset($_SESSION["username"]))
 				--------------------------------------------------------------------------------------------------->
 				
 				
-				<?php if($noOfTrainBookings[0]>0): ?>
+				<?php 
+				// if($noOfTrainBookings[0]>0):
+				 ?>
 					
 					
 					<!-------------------------------------------------------------------------------------------------
@@ -253,10 +255,9 @@ if(!isset($_SESSION["username"]))
 							
 							<?php
 	
-								$trainTicketsSQL = "SELECT * FROM `trainbookings` WHERE username='$user' AND cancelled='no'";
-								$trainTicketsQuery = $conn->query($trainTicketsSQL);
-				
-								while($trainTicketsRow = $trainTicketsQuery->fetch_assoc()) { 
+								// $trainTicketsSQL = "SELECT * FROM `trainbookings` WHERE username='$user' AND cancelled='no'";
+								// $trainTicketsQuery = $conn->query($trainTicketsSQL);
+								// while($trainTicketsRow = $trainTicketsQuery->fetch_assoc()) { 
 									
 								?>
 								
@@ -268,13 +269,17 @@ if(!isset($_SESSION["username"]))
 									<td class="text-center"><span class="fa fa-remove tableElementTags pullSpan cancelTrainTicket"></span></td>
 								</tr>
 								
-							<?php } ?>
+							<?php 
+						// } 
+						?>
 					
 						</table>
 						
 				</div>
 				
-				<?php else: ?>
+				<?php
+			//  else:
+			  ?>
 				
 				<div class="col-sm-12 ticketTableContainer" id="trainTicketsWrapper">
 				
@@ -286,7 +291,9 @@ if(!isset($_SESSION["username"]))
 				
 				</div>
 				
-				<?php endif; ?>
+				<?php 
+			// endif; 
+			?>
 				
 				
 				
