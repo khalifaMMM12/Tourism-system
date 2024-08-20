@@ -221,7 +221,7 @@
 						</div>
 				
 						<div class="footerText">
-							E-mail: jibrilla@tourism_system.com
+							E-mail: jaytourism@gmail.com.com
 						</div>
 						
 					</div>
