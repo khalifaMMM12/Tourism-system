@@ -53,8 +53,11 @@
 			
 			<div class="para">
 				<!--dummy description---->
-				Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet 
-				
+				Welcome to JayTourism, your all-in-one digital platform for seamless travel and adventure management. At JayTourism, we aim to make your journey planning effortless and enjoyable. From booking flights and hotels to managing reservations and providing a responsive support system, JayTourism is built to cater to your every need.
+
+Our goal is to offer a user-friendly experience, integrating state-of-the-art technology to ensure that you can explore the world with ease. We are committed to delivering excellence, whether you’re a traveler seeking an unforgettable experience or a tourism service provider looking to expand your reach.
+
+At JayTourism, we connect people, places, and cultures, helping you make memories that last a lifetime. Join us in revolutionizing the way you travel!				
 			</div>
 			
 		</div> <!-- paymentWrapper -->

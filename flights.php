@@ -91,7 +91,7 @@ if(!isset($_SESSION["username"]))
 							<ul>
 								<a href="hotels.php"><li>Hotels</li></a>
 								<li class="selected">Flights</li>
-								<a href="trains.php"><li>Trains</li></a>
+								<!-- <a href="trains.php"><li>Trains</li></a> -->
 							</ul>
 							
 						</div>

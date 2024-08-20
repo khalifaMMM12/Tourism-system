@@ -133,7 +133,7 @@
 						
 					</div>
 					
-					<div class="col-xs-12 containerGrids hvr-buzz-out">
+					<!-- <div class="col-xs-12 containerGrids hvr-buzz-out">
 						<a href="trains.php" style="color: black;">
 							
 							<div class="col-xs-12 icons text-center">
@@ -147,7 +147,7 @@
 						</a>
 							
 					</div>
-			
+			 -->
 				</div>
 
 				<!--popular destinations-->
