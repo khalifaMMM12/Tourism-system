@@ -382,7 +382,7 @@ if(!isset($_SESSION["username"]))
 						</div>
 				
 						<div class="footerText">
-							E-mail: jaytourism@gmail.com.com
+							E-mail: jaytourism@gmail.com
 						</div>
 						
 					</div>
